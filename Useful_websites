@@ -1,17 +1,167 @@
-	• Some Useful websites ==>
+## 🔍 Internet & Asset Intelligence (OSINT & Recon)
 
-	1. Hide01 - Free Learning
-	2. https://awesomeopensource.com
-	3. https://freecoursesite.com
-	4. https://google.com
-	5. https://github.com
-	6. https://gitlab.com
-	7. https://thisxdoesnotexist.com
-	8. https://shodan.io
-	9. Pentest guru - All about in-security
-	10. Free and Open Source Threat Intelligence Feeds - Threat Intelligence (threat-intel.xyz)
-	11. Curated list of awesome lists | Project-Awesome.org
-	12. https://free.stulive.com ( free 5tb Onedrive account )
-	13. https://Forums.hide01.ir
-	14. Blog | hackers-arise
-	15. Glorified Reddit Comment · GitHub
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 1 | **Censys** | Deep, query-based scanning of internet-wide hosts and services (advanced Shodan alternative). | `https://censys.io` |
+| 2 | **crt.sh** | A constantly updated Certificate Transparency log search tool, crucial for finding subdomains. | `https://crt.sh` |
+| 3 | **Hunter.io** | Helps find professional email addresses related to a domain. | `https://hunter.io` |
+| 4 | **SecurityTrails** | Historical DNS and WHOIS data aggregator for deep domain and IP analysis. | `https://securitytrails.com` |
+| 5 | **ViewDNS.info** | A collection of various DNS/IP tools, including reverse IP lookup and WHOIS history. | `https://viewdns.info` |
+| 6 | **SpiderFoot** | An open-source intelligence automation tool that integrates with dozens of data sources. | `https://www.spiderfoot.net` |
+| 7 | **Wigle.net** | A database of wireless networks with location and other information. | `https://wigle.net` |
+| 8 | **Wayback Machine** | Essential for viewing historical versions of websites to find old, exposed information. | `https://archive.org/web/` |
+| 9 | **FullHunt** | Attack surface management and asset discovery platform. | `https://fullhunt.io` |
+| 10 | **Exploit-DB** | An archive of exploits and vulnerable software, maintained by Offensive Security. | `https://www.exploit-db.com` |
+
+-----
+
+## 🚨 Threat Intelligence & Malware Analysis
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 11 | **MalwareBazaar (abuse.ch)** | A collection of malware samples for security researchers. | `https://bazaar.abuse.ch` |
+| 12 | **URLhaus (abuse.ch)** | Collects and shares URLs that are used for spreading malware. | `https://urlhaus.abuse.ch` |
+| 13 | **Any.Run** | An interactive online malware sandbox for dynamic analysis. | `https://any.run` |
+| 14 | **Hybrid Analysis** | Popular malware analysis platform for deep static and dynamic analysis. | `https://www.hybrid-analysis.com` |
+| 15 | **InQuest Labs** | Provides various threat research tools, including file analysis and threat data feeds. | `https://labs.inquest.net` |
+| 16 | **Malpedia** | A structured malware database for research on families and behavior profiles. | `https://malpedia.caad.fkie.fraunhofer.de` |
+| 17 | **CISA KEV Catalog** | US government list of vulnerabilities actively being exploited in the wild. | `https://www.cisa.gov/known-exploited-vulnerabilities-catalog` |
+| 18 | **OpenCTI** | An open-source platform for threat intelligence management and visualization. | `https://www.opencti.io` |
+| 19 | **ATT\&CK Navigator (MITRE)** | A tool to visualize and explore the MITRE ATT\&CK knowledge base. | `https://mitre-attack/navigator` |
+| 20 | **DomainTools** | Domain data for historical analysis, ownership, and threat correlation. | `https://domaintools.com` |
+
+-----
+
+## 🛠️ Penetration Testing & Tools
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 21 | **PayloadsAllTheThings** | A massive, crowd-sourced repository of useful payloads and knowledge. | `https://github.com/swisskyrepo/PayloadsAllTheThings` |
+| 22 | **Hardenize** | Audits a website's overall security posture (TLS, DNS, HTTP headers, etc.). | `https://www.hardenize.com` |
+| 23 | **HackTricks** | An extensive compilation of hacking/pentesting tricks, techniques, and methodologies. | `https://book.hacktricks.xyz` |
+| 24 | **Awesome-Pentest (GitHub)** | A curated list of *awesome* penetration testing resources, tools, and platforms. | `https://github.com/enaqx/awesome-pentest` |
+| 25 | **Packet Storm Security** | A long-running archive of security exploits, tools, and papers. | `https://packetstormsecurity.com` |
+| 26 | **OWASP Top 10 Project** | Essential resource for understanding the most critical web application security risks. | `https://owasp.org/www-project-top-ten/` |
+| 27 | **SecLists (GitHub)** | A collection of various wordlists for security assessments (passwords, usernames, dirs). | `https://github.com/danielmiessler/SecLists` |
+| 28 | **Vulnerability-Lab** | A research and security disclosure platform, often releasing new exploit details. | `https://www.vulnerability-lab.com` |
+| 29 | **GTFOBins** | A curated list of Unix binaries that can be exploited to bypass local security restrictions. | `https://gtfobins.github.io` |
+| 30 | **LSE Reference** | Comprehensive guides and checklists for securing Linux systems. | `https://www.linux-security.org` |
+
+-----
+
+## 📚 Vulnerability & Reference Databases
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 31 | **CVE Details** | Provides a searchable interface for Common Vulnerabilities and Exposures (CVEs). | `https://www.cvedetails.com` |
+| 32 | **NVD** | The U.S. government repository of standards-based vulnerability management data. | `https://nvd.nist.gov` |
+| 33 | **Shodan Exploits** | A dedicated search engine for public exploit code and vulnerability details. | `https://exploits.shodan.io` |
+| 34 | **Packetlife** | Offers quick, excellent TCP/IP cheat sheets, protocol guides, and network diagrams. | `https://www.packetlife.net` |
+| 35 | **Wireshark Wiki** | A detailed resource for all things packet analysis and protocol dissectors. | `https://wiki.wireshark.org` |
+| 36 | **MSRC Portal** | Official portal for Microsoft vulnerability announcements and advisories. | `https://msrc.microsoft.com/update-guide/en-US/` |
+| 37 | **Bleeping Computer Guides** | Practical guides for malware removal and technical troubleshooting used by researchers. | `https://www.bleepingcomputer.com` |
+| 38 | **Security Focus (BugTraq)** | A long-running mailing list archive for new security vulnerability announcements. | `http://www.securityfocus.com/archive/1` |
+| 39 | **Tenable VPR** | Provides a more realistic, predictive metric for vulnerability risk than basic CVSS scores. | `https://www.tenable.com/vulnerability-priority-rating` |
+| 40 | **CIS** | Consensus-developed best practice security configuration guides (Benchmarks). | `https://www.cisecurity.org` |
+
+-----
+
+## 💻 Code & Binary Analysis
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 41 | **Phoronix** | Great source for deep-dive kernel security and performance news. | `https://www.phoronix.com` |
+| 42 | **Godbolt (Compiler Explorer)** | Allows compilation of code to see the resulting assembly—crucial for reverse engineering. | `https://godbolt.org` |
+| 43 | **Binary Ninja** | Official site for a popular, modern, and powerful reverse engineering platform. | `https://binary.ninja` |
+| 44 | **Awesome-Reverse-Engineering** | A curated list of awesome reverse engineering resources, tools, and platforms. | `https://github.com/tylerha97/awesome-re` |
+| 45 | **IDA Pro** | The official site for the industry-standard disassembler and debugger. | `https://hex-rays.com/ida-pro/` |
+| 46 | **Radare2** | The website for a free/libre toolset for reverse engineering and binary analysis. | `https://www.radare.org/r` |
+| 47 | **Ghidra (NSA)** | Official site for the NSA's open-source software reverse engineering framework. | `https://ghidra-sre.org` |
+| 48 | **Hackaday** | Focuses on hardware hacking and embedded security. | `https://hackaday.com` |
+| 49 | **Frida** | A dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers. | `https://frida.re` |
+| 50 | **Project Zero Blog** | Google's blog disclosing zero-day vulnerabilities with deep technical write-ups. | `https://googleprojectzero.blogspot.com` |
+
+-----
+
+## 🌐 Specialized Search Engines & Data Aggregators
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 51 | **Fofa.info** | A Chinese-based cyber-space search engine similar to Shodan/Censys. | `https://fofa.info` |
+| 52 | **ZoomEye** | Another cyber-space search engine that focuses on network environment and web service. | `https://www.zoomeye.org` |
+| 53 | **PublicWWW** | Search engine for web technologies, allowing search of web page source code. | `https://publicwww.com` |
+| 54 | **Grep.app** | Search over a half million git repositories for exposed secrets or code patterns. | `https://grep.app` |
+| 55 | **Dehashed** | A search engine for breached credentials and leaked data. | `https://dehashed.com` |
+| 56 | **WHOISXML API (Reverse Lookup)** | Reverse WHOIS and IP historical data lookup tools. | `https://www.whoisxmlapi.com/reverse-whois.php` |
+| 57 | **DNS Dumpster** | A free domain research tool that can discover hosts related to a domain. | `https://dnsdumpster.com` |
+| 58 | **Have I Been Pwned** | The API/site for checking if an account has been compromised in a data breach. | `https://haveibeenpwned.com` |
+| 59 | **ThreatCrowd** | A tool for finding all online resources associated with a given domain. | `https://threatcrowd.org` |
+| 60 | **Pulsedive** | A threat intelligence platform offering free access to enriched threat data. | `https://pulsedive.com` |
+
+-----
+
+## 🔒 Policy & Standards
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 61 | **NIST Cybersecurity Framework** | Official framework for improving critical infrastructure cybersecurity. | `https://www.nist.gov/cyberframework` |
+| 62 | **ISO 27001** | Information on the international standard for information security management. | `https://www.iso.org/isoiec-27001-information-security.html` |
+| 63 | **SANS Institute Reading Room** | A vast collection of white papers and research on security policy and technical topics. | `https://www.sans.org/white-papers` |
+| 64 | **OWASP ASVS** | A list of application security requirements for building secure software. | `https://owasp.org/www-project-application-security-verification-standard/` |
+| 65 | **Cloud Security Alliance (CSA)** | Focuses on best practices for cloud computing security. | `https://cloudsecurityalliance.org` |
+| 66 | **PCI Security Standards Council** | The official body for Payment Card Industry Data Security Standard (PCI DSS). | `https://www.pcisecuritystandards.org` |
+| 67 | **HIPAA (HHS.gov)** | Official government resource for Health Insurance Portability and Accountability Act security rules. | `https://www.hhs.gov/hipaa/for-professionals/security/index.html` |
+| 68 | **GDPR Official Text** | The complete text of the EU's General Data Protection Regulation. | `https://gdpr-info.eu` |
+| 69 | **Cybersecurity Canon** | A curated list of must-read books for any cybersecurity professional. | `https://cybersecuritycanon.org` |
+| 70 | **FedVTE** | Free online cybersecurity training for U.S. government employees, contractors, and veterans. | `https://fedvte.usalearning.gov` |
+
+-----
+
+## 🧠 Educational & Community Resources
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 71 | **Hack The Box (HTB) Academy** | Official training platform from the popular hacking playground. | `https://academy.hackthebox.com` |
+| 72 | **TryHackMe** | A user-friendly platform for learning cyber security with short, practical labs. | `https://tryhackme.com` |
+| 73 | **pwn.college** | An educational resource focused on binary exploitation and security techniques. | `https://pwn.college` |
+| 74 | **The Many Hats Club** | A cybersecurity community with a focus on education and ethical hacking (often Discord/Twitch). | `https://www.themanyhats.club` |
+| 75 | **DefCon Media Archive** | Videos and presentations from the DefCon hacker conference. | `https://media.defcon.org` |
+| 76 | **Black Hat Archives** | Official repository of presentation slides and videos from the conference. | `https://www.blackhat.com/archives.html` |
+| 77 | **Reddit r/netsec** | Highly-active community for security news, discussions, and research. | `https://www.reddit.com/r/netsec/` |
+| 78 | **Infosec Writeups** | A collection of detailed articles, often post-exploit and CTF writeups. | `https://infosecwriteups.com` |
+| 79 | **Trail of Bits Blog** | Deep technical dives and security research from a highly-respected firm. | `https://blog.trailofbits.com` |
+| 80 | **Schneier on Security** | The personal blog of famed cryptographer Bruce Schneier, offering in-depth analysis. | `https://www.schneier.com/blog/` |
+
+-----
+
+## 📡 Networking & Infrastructure Tools
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 81 | **MTR (My Traceroute) Online** | Tools that combine the functionality of `ping` and `traceroute`. | `https://www.bitpipe.com/search?q=online+mtr+tool` |
+| 82 | **Hurricane Electric BGP Toolkit** | Excellent tools for Border Gateway Protocol (BGP) routing and IPv6 connectivity. | `https://bgp.he.net` |
+| 83 | **MXToolBox** | Provides various email and network troubleshooting tools (DNS, MX, SPF, blacklist checks). | `https://mxtoolbox.com` |
+| 84 | **Robtex** | A research tool that gathers different kinds of information about domains, IP addresses, and routes. | `https://www.robtex.com` |
+| 85 | **DNSViz** | A web-based DNS visualization tool. | `https://dnsviz.net` |
+| 86 | **IPinfo.io** | Comprehensive IP address data, including geolocation, ASN, and hosting provider. | `https://ipinfo.io` |
+| 87 | **RIPEstat** | Provides aggregated internet measurement data from the RIPE NCC. | `https://stat.ripe.net` |
+| 88 | **Spamhaus Check** | Crucial for checking if a sender IP or domain is listed for spam or malicious activity. | `https://check.spamhaus.org` |
+| 89 | **Icarus DNS Resolver** | A tool to check how DNS records are resolved globally. | `https://check.spamhaus.org/icarus` |
+| 90 | **https://www.google.com/search?q=Network-Tools.com** | A compilation of various network diagnostic tools (ping, traceroute, port scan, etc.). | `https://network-tools.com` |
+
+-----
+
+## 🛡️ Privacy & OpSec
+
+| \# | Website Name | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 91 | **PrivacyTools.io** | Community-driven list of privacy-respecting services and software. | `https://www.privacytools.io` |
+| 92 | **EFF** | Non-profit defending civil liberties in the digital world, with resources on security and privacy law. | `https://www.eff.org` |
+| 93 | **OpSecX** | Focused on Operational Security (OpSec) techniques for red teams. | `https://opsecx.com` |
+| 94 | **Tails OS** | The official site for the live operating system that aims to preserve privacy and anonymity. | `https://tails.boum.org` |
+| 95 | **Tor Project Official Site** | The official site for the Tor browser and network, vital for research anonymity. | `https://www.torproject.org` |
+| 96 | **Keybase (now Zoom)** | A service for securely sharing data based on cryptographic proof of identities. | `https://keybase.io` |
+| 97 | **ExifTool** | A free and open-source software program for reading, writing, and editing file metadata. | `https://exiftool.org` |
+| 98 | **SecureDrop** | An open-source whistleblowing platform that allows sources to anonymously share documents. | `https://securedrop.org` |
+| 99 | **DNS Leak Test** | A simple tool to check if your VPN or proxy is leaking DNS requests. | `https://dnsleaktest.com` |
+| 100 | **GrapheneOS** | A privacy and security-focused mobile operating system. | `https://grapheneos.org` |
