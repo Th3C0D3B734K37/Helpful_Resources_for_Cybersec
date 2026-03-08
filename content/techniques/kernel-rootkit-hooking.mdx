@@ -1,0 +1,17 @@
+---
+title: "Kernel syscall hooking"
+layer: "OS/Kernel"
+tags: ["rootkit", "syscall", "lkm"]
+cves: ["CVE-2022-0847"]
+tools: ["bcc", "kprobe"]
+skills: ["Linux", "Assembly", "C++"]
+severity: "critical"
+last_updated: "2026-03-08"
+contributors: ["@community"]
+---
+
+# Kernel syscall hooking
+
+<Warning>Educational and defensive context only.</Warning>
+
+Hooking `getdents64` can hide artifacts from userland tools.

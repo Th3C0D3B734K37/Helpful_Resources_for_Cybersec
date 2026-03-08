@@ -1,0 +1,24 @@
+[
+  {
+    "title": "CVE-2022-0847 Dirty Pipe privilege escalation",
+    "href": "/",
+    "tags": [
+      "OS/Kernel"
+    ],
+    "cves": [
+      "CVE-2022-0847"
+    ],
+    "tools": []
+  },
+  {
+    "title": "CVE-2023-24932 Secure Boot bypass",
+    "href": "/",
+    "tags": [
+      "Firmware/ASM"
+    ],
+    "cves": [
+      "CVE-2023-24932"
+    ],
+    "tools": []
+  }
+]

@@ -1,0 +1,24 @@
+name: Update CVEs
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run fetch-cves
+      - run: npm run build
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add public/data/cves.json public/data/tags.json
+          git commit -m "chore: nightly CVE data refresh" || exit 0
+          git push

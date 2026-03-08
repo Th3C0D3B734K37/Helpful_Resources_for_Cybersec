@@ -1,0 +1,10 @@
+{
+  "headers": [
+    {
+      "source": "/cves/(.*)",
+      "headers": [
+        { "key": "cache-control", "value": "s-maxage=86400, stale-while-revalidate" }
+      ]
+    }
+  ]
+}
